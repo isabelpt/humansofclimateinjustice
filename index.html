@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="timeline.scss" rel="stylesheet/scss" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Judson&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+    <div class = "navbar">
+      <a href = "index.html">Home</a>
+      <div class = "dropdown">
+        <button class = "dropbtn"> Blogs
+          <i class= "fa fa-caret-down"></i>
+          </button>
+        <div class= "dropdown-content">
+          <a href = "madagascar.html">Madagascar</a>
+          <a href = "bangladesh.html"> Bangladesh</a>
+          <a href = "japan.html">Japan</a>
+          <a href = "bahamas.html"> Bahamas</a>
+          </div>
+        </div>
+      <a href= "calltoaction.html">Call To Action</a>
+      <a href="about.html">About</a>
+      </div>
+    </nav>
+    <h1 class="title"> Humans of Climate Injustice</h1>
+    <div class = "world-map">
+    <div id="map-container">
+      <img class="map" src="map1.svg">
+      <a href="bahamas.html"><img class="pin bahamas" src="pin_marker.png"></a>
+      <a href="bangladesh.html"><img class="pin bangladesh" src="pin_marker.png"></a>
+      <a href="japan.html"><img class="pin japan" src="pin_marker.png"></a>
+      <a href="madagascar.html"><img class="pin madagascar" src="pin_marker.png"></a>
+      <article class="bahamasInfo hidden">Bahamas</article>
+      <article class="bangladeshInfo hidden">Bangladesh</article>
+      <article class="japanInfo hidden">Japan</article>
+      <article class="madagascarInfo hidden">Madagascar</article>
+    </div>
+    </div>
+    <h2 class="timelinetitle">Timeline of Climate Change</h2>
+    <div class="timeline">
+  <div class="container right">
+    <div class="content">
+      <h2>1820</h2>
+      <p>Joseph Fourier proposes the greenhouse effect. He figured that the Earth was warming up due to trapped energy within the Earth's atmosphere. </p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>1958</h2>
+      <p> A research project led by Charles Keeling of the Scripps Institution, focused on using computer models to record the rise of Carbon emission levels. Results showed that doubled C </p>
+     </div>
+  </div> 
+  <div class="container right">
+    <div class="content">
+      <h2>1970</h2>
+      <p>The first Earth Day. The enviornmental movement begins to gain traction as people begin to be comcerned about global degradation.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>1989</h2>
+      <p>The Intergovernmental Panel on Climate Change (IPCC) was formed by the United Nations in order to provide objective and scientific information on climate change.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2015</h2>
+      <p>Most countries signed the Paris Agreement, an effort to reduce global greenhouse gas emissions in order to limit the global temperature increase.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2021-Present</h2>
+      <p>According to CNN10, "300 record-high temperatures in jeopardy this week (Week of June 16th, 2021)". Areas in the Southwest have faced massive droughts and potential, major heat waves.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2030</h2>
+      <p>At least 90% of coral reefs will be threatened by human activities, warming, and acidification.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2050</h2>
+      <p>$106 Billion worth of coastal properties will be underwater.<br>400+ species of birds could be threatened or extinct.<br>There will be an additional 3,200-5,200 heat related deaths per year in Australia, and 500-1,000 heat related deaths in New York City.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2070</h2>
+      <p>More than 3 billion people willl be living in places with near un-liveable heat.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2100</h2>
+      <p>If greenhouse has emissions continue at the current pace, the melting of Antarctica and Greenland's ice sheets could add more than 15 inches to sea level.</p>
+    </div>
+  </div>
+</div>
+    <script src="map.js"></script>
+  </body>
+</html>
