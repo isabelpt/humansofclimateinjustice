@@ -1,13 +1,28 @@
+body{
+  background-color: #DDE7DA; 
+  font-family: 'Judson', serif;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', sans-serif;
+  color: #666A86;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-left: 10%;
+}
 
 .slideshow-images{
 display: none;
 object-fit: cover;
-height: 100px;
-width: 100px;
+height: 315px;
+width: 560px;
 }
 
-
+.slideshow {
+  display: flex;
+  justify-content: center;
+}
 
 /* Navbar container */
 .navbar {
@@ -89,13 +104,18 @@ object-fit: cover;
 height: 100px;
 display: flex;
 justify-content: center;
+padding-top: 20px;
 }
 
 
-p {
-  background-color:#DAE7E5; 
-  text-align: center;
-  font-family: archivo; 
+p, ul {
+  background-color:#F6F1E0; 
+  padding: 1%;
+  border-radius: 6px;
+  font-size: 18px;
+  width: 80%;
+  margin-left: 10%;
+  list-style: none;
 }
 
 .Youtube{

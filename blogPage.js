@@ -1,11 +1,14 @@
 console.log("HEYYYYYYY");
 
-var myIndex = 0; 
-carousel(); 
-var x= document.getElementsByClassName("slideshow-images"); 
+var myIndex = 0;
+var x = document.getElementsByClassName("slideshow-images");
+carousel();
+
+// var x= document.getElementsByClassName("slideshow-images");
 
 function carousel(){
- 
+  // console.log(x);
+
   for (var i = 0; i<x.length; i++)
   {
     x[i].style.display="none";
